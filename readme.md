@@ -24,8 +24,6 @@ let otherClosure: ([Int]) -> Int = { (values: [Int]) -> Int in
 
 
 
-
-
 2. 옵셔널 타입의 문자열 파라미터 3개를 입력받은 뒤, 옵셔널을 추출하여 Unwrapped 된 하나의 문자열로 합쳐서 반환하는 함수
 
 ~~~swift
@@ -69,6 +67,7 @@ func combineString(str1: String?, str2: String?, str3: String?) -> String {
  - 속성: 현재 값
  - 행위: 더하기, 빼기, 나누기, 곱하기, 값 초기화
 
+~~~swift
  ex)
  let calculator = Calculator() // 객체생성
 
@@ -85,6 +84,7 @@ func combineString(str1: String?, str2: String?, str3: String?) -> String {
 
  calculator.divide(10)   // 16
  calculator.reset()      // 0
+~~~
 
 
 
@@ -92,15 +92,17 @@ func combineString(str1: String?, str2: String?, str3: String?) -> String {
 
 1. 첨부된 이미지를 보고 상속을 이용해 구현해보기
 <div align="center">
-<img src="assets/1번 과제.png" width="800">
+<img src="assets/1번 과제.png" width="600">
 </div>
+
 
 2. 첨부된 각 도형의 이미지를 참고하여 각 도형별 클래스를 만들고 
    각각의 넓이, 둘레, 부피를 구하는 프로퍼티와 메서드 구현하기
    (클래스 구현 연습)
 <div align="center">
-<img src="assets/2번 과제.png" width="800">
+<img src="assets/2번 과제.png" width="600">
 </div>
+
 
 
 
